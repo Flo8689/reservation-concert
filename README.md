@@ -6,9 +6,9 @@ Note : Ce projet requiert NodeJS, avec une version entre v14 et v18 pour faire f
 
 
 1. Ouvrir le terminal
-2. Cloner le projet : git clone
+2. Cloner le projet : git clone git@github.com:Flo8689/reservation-concert.git
 3. Dans le dossier du projet vue-concert, lancer la commande suivante : npm run dev
-4. Aller à l'adresse indiquée http://localhost:5173/. Vous ne verrez alors que l'en-tête.
+4. Aller à l'adresse indiquée. Vous ne verrez alors que l'en-tête.
 5. Ouvrir un nouvel onglet dans le terminal. Dans le dossier vue-concert, entrer : cd concert-api
 6. Dans le dossier concert-api, entrer : npm run develop
 7. Vous devriez voir les données de l'api apparaître à l'adresse donnée plus haut, sous forme de cards Bootstrap. Si ce n'est pas le cas, vérifiez votre version Node (node -v dans le terminal) et dépréciez la si elle est supérieure à v16 (ex: nvm install lts/gallium, puis nvm use lts/gallium).
